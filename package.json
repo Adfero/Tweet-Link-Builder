@@ -1,0 +1,24 @@
+{
+  "name": "tweet-link-builder",
+  "version": "1.0.0",
+  "description": "Accepts an XLSX file of names and tweet text and outputs an XLSX file with tweet links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adfero/Tweet-Link-Builder.git"
+  },
+  "author": "John Jones <jjones@adfero.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adfero/Tweet-Link-Builder/issues"
+  },
+  "homepage": "https://github.com/Adfero/Tweet-Link-Builder#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "bitly": "^4.1.1",
+    "xlsx": "^0.8.0"
+  }
+}
